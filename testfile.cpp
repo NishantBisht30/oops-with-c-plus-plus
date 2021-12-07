@@ -18,5 +18,7 @@ class hello1
 int main()
 {
     hello1 op1;
+    op1.setData(12,23);
+    op1.showData();
     return 0;
 }
